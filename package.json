@@ -16,7 +16,8 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "fortnite": "^4.3.2",
-    "sqlite": "^3.0.3"
+    "sqlite": "^3.0.3",
+    "async-limiter": "^2.0.0"
   },
   "engines": {
     "node": "8.x"
