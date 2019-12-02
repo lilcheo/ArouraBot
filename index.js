@@ -2,7 +2,6 @@ const { Client, Collection } = require("discord.js");
 const { config } = require("dotenv");
 const fs = require("fs");
 
-
 const client = new Client({
   disableEveryone: true
 });
