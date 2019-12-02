@@ -5,7 +5,7 @@
   "name": "hello-express",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
@@ -17,7 +17,8 @@
     "express": "^4.17.1",
     "fortnite": "^4.3.2",
     "sqlite": "^3.0.3",
-    "async-limiter": "^2.0.0"
+    "async-limiter": "^2.0.0",
+    "async": "^3.1.0"
   },
   "engines": {
     "node": "8.x"
