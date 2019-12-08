@@ -26,7 +26,7 @@ client.on("ready", () => {
   client.user.setPresence({
     status: "online",
     game: {
-      name: "Now Hosted By #$%^@78",
+      name: "Now Hosted By 𝙹⚍ ᔑ∷ᒷ ⊣ᔑ",
       type: "WATCHING"
     }
   });
