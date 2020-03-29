@@ -13,7 +13,7 @@ const clean = text => {
       return text;
 }
 
-client.on("message", message => {
+
   const args = message.content.split(" ").slice(1);
  
   if (message.content.startsWith(main.prefix + "eval")) {
