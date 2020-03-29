@@ -1,7 +1,7 @@
 const { main } = require("/owner.json");
 module.exports = {
-  name: "ping",
-  description: "Returns latency and API ping",
+  name: "eval",
+  description: "idk",
   run: async (client, message, args) => {
   
 const clean = text => {
