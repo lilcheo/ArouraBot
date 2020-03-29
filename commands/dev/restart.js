@@ -7,11 +7,10 @@ module.exports = {
   description: "idk",
   run: async (client, message, args) => {
 
-let owner = "275350295293198337";
- if(message.author.id !== owner) 
-    try {
-    process.exit();
-     message.send('Test')
+ let owner = "275350295293198337";
+ if(message.author.id == owner) 
+    {
+     message.channel.send('Restarting')
     }
  catch (err) {
       console.log(err)
