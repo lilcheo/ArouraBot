@@ -1,6 +1,6 @@
 module.exports = {
-  name: "ping",
-  description: "Returns latency and API ping",
+  name: "uptime",
+  description: "Returns UpTime",
   run: async (client, message, args) => {
 let totalSeconds = (client.uptime / 1000);
 let days = Math.floor(totalSeconds / 86400);
