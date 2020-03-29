@@ -1,4 +1,4 @@
-const { main } = require("/owner.json");
+const { main } = require("./owner.json");
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
