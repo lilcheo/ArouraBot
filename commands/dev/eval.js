@@ -1,4 +1,6 @@
 const { main } = require("/owner.json");
+const Discord = require("discord.js");
+const client = new Discord.Client();
 module.exports = {
   name: "eval",
   description: "idk",
