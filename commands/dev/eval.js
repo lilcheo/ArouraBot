@@ -16,7 +16,7 @@ const clean = text => {
 
   const args = message.content.split(" ").slice(1);
  
-  if (message.content.startsWith(main.prefix + "eval")) {
+  if (message.content.startsWith(config.prefix + "eval")) {
     if(message.author.id !== main.ownerID) return;
     try {
       const code = args.join(" ");
