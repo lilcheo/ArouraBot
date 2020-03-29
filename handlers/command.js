@@ -24,7 +24,7 @@ module.exports = client => {
         );
         continue;
       }
-
+//glitches fixed here too
       if (pull.aliases && Array.isArray(pull.aliases))
         pull.aliases.forEach(alias => client.aliases.set(alias, pull.name));
     }
