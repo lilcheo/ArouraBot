@@ -6,7 +6,7 @@ module.exports = {
   name: "eval",
   description: "idk",
   run: async (client, message, args) => {
-  
+  let owner = "275350295293198337";
 const clean = text => {
   if (typeof(text) === "string")
     return text.replace(/`/g, "`" + String.fromCharCode(8203)).replace(/@/g, "@" + String.fromCharCode(8203));
@@ -17,7 +17,7 @@ const clean = text => {
 
   
 
-    if(message.author.id !== main.ownerID) return;
+    if(message.author.id !== owner) return;
     try {
       const code = args.join(" ");
       let evaled = eval(code);
