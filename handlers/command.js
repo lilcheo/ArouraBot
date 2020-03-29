@@ -1,5 +1,5 @@
 const { readdirSync } = require("fs");
-
+//patched long ping glitch using a newer version of readdirsync
 const ascii = require("ascii-table");
 
 let table = new ascii("Commands");
