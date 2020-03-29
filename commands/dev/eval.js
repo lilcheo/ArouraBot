@@ -1,6 +1,7 @@
 const { main } = require("/owner.json");
 const Discord = require("discord.js");
 const client = new Discord.Client();
+
 module.exports = {
   name: "eval",
   description: "idk",
@@ -15,8 +16,7 @@ const clean = text => {
 
 
   
- 
-  if (message.content.startsWith(config.prefix + "eval")) {
+
     if(message.author.id !== main.ownerID) return;
     try {
       const code = args.join(" ");
@@ -30,7 +30,4 @@ const clean = text => {
       message.channel.send(`\`ERROR\` \`\`\`xl\n${clean(err)}\n\`\`\``);
     }
   }
-});
-
   }
-}
