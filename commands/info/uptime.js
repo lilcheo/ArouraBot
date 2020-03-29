@@ -2,7 +2,7 @@ module.exports = {
   name: "ping",
   description: "Returns latency and API ping",
   run: async (client, message, args) => {
-    clet totalSeconds = (client.uptime / 1000);
+let totalSeconds = (client.uptime / 1000);
 let days = Math.floor(totalSeconds / 86400);
 let hours = Math.floor(totalSeconds / 3600);
 totalSeconds %= 3600;
