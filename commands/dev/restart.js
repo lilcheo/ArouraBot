@@ -13,6 +13,7 @@ module.exports = {
  if(message.author.id !== owner) return;
     try {
     process.exit();
+     message.channel.send('Restarting')
     }
     
  catch (err) {
