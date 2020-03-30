@@ -11,7 +11,7 @@ let owner = "275350295293198337";
  if(message.author.id !== owner){
 message.channel.send("error: ${console.error}")
 }else {
-message.channel.send("Restarting").then(() => process.exit())
+message.channel.send("Restarting...").then(() => process.exit())
 }
   }
 }
